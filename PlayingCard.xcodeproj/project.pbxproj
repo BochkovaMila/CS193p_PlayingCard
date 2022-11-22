@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		3105D216292370BA0023DBA1 /* PlayingCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3105D215292370BA0023DBA1 /* PlayingCardView.swift */; };
+		31DA964F292D06D400EE912E /* CardBehavior.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31DA964E292D06D400EE912E /* CardBehavior.swift */; };
 		31DB4421292265980000EE97 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31DB4420292265980000EE97 /* AppDelegate.swift */; };
 		31DB4423292265980000EE97 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31DB4422292265980000EE97 /* SceneDelegate.swift */; };
 		31DB4425292265980000EE97 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31DB4424292265980000EE97 /* ViewController.swift */; };
@@ -21,6 +22,7 @@
 
 /* Begin PBXFileReference section */
 		3105D215292370BA0023DBA1 /* PlayingCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayingCardView.swift; sourceTree = "<group>"; };
+		31DA964E292D06D400EE912E /* CardBehavior.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardBehavior.swift; sourceTree = SOURCE_ROOT; };
 		31DB441D292265980000EE97 /* PlayingCard.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PlayingCard.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		31DB4420292265980000EE97 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		31DB4422292265980000EE97 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -64,6 +66,7 @@
 		31DB441F292265980000EE97 /* PlayingCard */ = {
 			isa = PBXGroup;
 			children = (
+				31DA964E292D06D400EE912E /* CardBehavior.swift */,
 				31DB4438292266050000EE97 /* PlayingCard.swift */,
 				31DB443A292268BE0000EE97 /* PlayingCardDeck.swift */,
 				31DB4437292265BF0000EE97 /* Supporting Files */,
@@ -165,6 +168,7 @@
 				31DB443B292268BE0000EE97 /* PlayingCardDeck.swift in Sources */,
 				31DB442B292265980000EE97 /* PlayingCard.xcdatamodeld in Sources */,
 				31DB4423292265980000EE97 /* SceneDelegate.swift in Sources */,
+				31DA964F292D06D400EE912E /* CardBehavior.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
